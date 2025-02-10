@@ -33,7 +33,7 @@ public class ListePersistens {
                 String[] data = line.split(";");
                 if(data.length == 2) {
                     String navn = data[0];
-                    int tlf = Integer.parseInt(data[1]);
+                    String tlf = data[1];
                     Kontakt k = new Kontakt(navn,tlf);
                     tListe.addKontakt(k);
                 }

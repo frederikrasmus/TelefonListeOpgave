@@ -1,9 +1,9 @@
 public class Kontakt {
 
     private String navn;
-    private int telefon;
+    private String telefon;
 
-    public Kontakt(String n, int t) {
+    public Kontakt(String n, String t) {
         navn = n;
         telefon = t;
     }
@@ -12,7 +12,7 @@ public class Kontakt {
         return navn;
     }
 
-    public int getTelefon() {
+    public String getTelefon() {
         return telefon;
     }
 

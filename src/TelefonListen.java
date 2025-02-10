@@ -40,7 +40,7 @@ public class TelefonListen {
     public void udskrivListe() {
         System.out.println("===Liste over kontakter===");
         for(Kontakt k : tListe.values()) {
-            System.out.println(k.getNavn());
+            System.out.println(k);
         }
     }
 }

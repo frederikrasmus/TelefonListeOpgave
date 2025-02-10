@@ -14,7 +14,7 @@ public class OpretKontakt {
         String navn = scanner.nextLine();
 
         System.out.println("Indtast: Telefonummer: ");
-        int tlf = scanner.nextInt();
+        String tlf = scanner.nextLine();
         scanner.nextLine();
 
         Kontakt k = new Kontakt(navn,tlf);
